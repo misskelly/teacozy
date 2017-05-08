@@ -98,18 +98,26 @@ h4{
   font-weight: bold;
 }
 
-
-
-
-
 #TOM .heading {
   width: 100%;
   padding-top: 70px;
 }
 
 #TOM {
+  display: flex;
   width: 1000px;
+  height: 700px;
   flex-wrap: wrap;
+  margin: 0 100px;
+  justify-content: center;
+
+}
+
+#TOM p {
+  color: black;
+  width: 100%;
+  background-color: black;
+  height: 70px;
 
 }
 .tea img{
@@ -122,5 +130,46 @@ h4{
   display: block;
   font-weight: bold;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-top: 100px;
+}
+
+.flex-container .address {
+  padding-top: 5px;
+
+}
+
+.address {
+  display: flex;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1.0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  width: 300px
+
+}
+
+#locations h2 {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 70px;
+}
+
+h3{
+  margin: 0;
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+  
 }
