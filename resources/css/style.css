@@ -138,8 +138,10 @@ h4{
 
 #locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 500px;
-  max-width: 1200px;
+  width: 1200px;
   padding: 10px;
   align-items: center;
   flex-flow: wrap;
